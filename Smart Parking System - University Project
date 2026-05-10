@@ -1,0 +1,42 @@
+ Smart Parking System
+
+Java desktop application for managing a university parking system.
+
+Project Description
+
+Smart Parking System is a Java desktop application developed for university parking management. It helps organize parking spaces efficiently by allowing users to view available spots and reserve them in real time.
+
+The system has two main roles: users and administrators. Users can register, log in, check available parking spots, and make reservations. Administrators have full control over the system, including managing users, parking spaces, and viewing all reservations.
+
+The goal of this project is to simplify parking management and reduce time wasted searching for available spaces.
+
+ Features
+- User registration & login  
+- Admin & user roles  
+- View and reserve parking spots  
+- Manage parking data  
+- Database integration  
+
+ Tech Stack
+- Java (Swing)
+- JDBC
+- SQL (Oracle/MySQL)
+- NetBeans
+
+ Run Project
+1. Clone repo  
+2. Open in NetBeans  
+3. Set database connection  
+4. Run `Main.java`
+
+Roles
+User: view & reserve spots  
+Admin manage users & parking
+
+
+ Author
+Wafaa Almashahreh
+Computer Engineering Student
+
+
+
