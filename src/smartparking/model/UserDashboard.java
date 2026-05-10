@@ -209,7 +209,6 @@ public class UserDashboard extends JFrame {
         } catch (SQLException e) { e.printStackTrace(); }
     }
 
-    // ✅ FIX: إضافة releaseExpiredReservations لإرجاع المصفات المنتهية لأخضر
     private void loadSpots() {
         try {
             Database.expirePendingReservations();
@@ -860,7 +859,6 @@ public class UserDashboard extends JFrame {
         return "  [" + code + "]";
     }
 
-    // ✅ FIX: إضافة releaseExpiredReservations للتحديث التلقائي كل 30 ثانية
     private void startAutoRefresh() {
         refreshTimer = new Timer(30000, e -> {
             try {
